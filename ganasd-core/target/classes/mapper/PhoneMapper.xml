@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="imu.hzm.ganasd.dao.PhoneDao">
+    <resultMap id="basicResultMap" type="imu.hzm.ganasd.model.Phone">
+        <id column="phonid" property="phoneId" jdbcType="BIGINT"/>
+        <id column="brandid" property="brandId" jdbcType="BIGINT"/>
+        <id column="phonename" property="phoneName" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="findUserPhone" parameterType="Long" resultMap="basicResultMap">
+        select * from phone where phoneid=#{phoneId};
+    </select>
+
+    <select id="findAllPhone" parameterType="Long" resultType="String">
+        select phonename from phone where brandid=#{brandId};
+    </select>
+
+    <select id="findPhoneIdByName" parameterType="String" resultType="Long">
+        select phoneid from phone where phonename=#{phoneName};
+    </select>
+
+    <update id="updateUserPhoneId" parameterType="Long">
+        update user phoneid set phoneid=#{phoneId} where userid=#{userId};
+    </update>
+</mapper>
