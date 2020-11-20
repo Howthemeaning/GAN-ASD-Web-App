@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ff2c5d4-1822-4b98-a82b-5897ee9862c5" name="Default Changelist" comment="" />
+    <list default="true" id="4ff2c5d4-1822-4b98-a82b-5897ee9862c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-commons/target/ganasd-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-commons/target/ganasd-commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-commons/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-commons/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-core/target/ganasd-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-core/target/ganasd-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/UserManagerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/admin/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/UserManagerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/admin/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/ganasd-user-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/ganasd-user-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,22 +56,27 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Program Files/Apache/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="C:\Program Files\Apache\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="$USER_HOME$/MavenRepo" />
+        <option name="mavenHome" value="$USER_HOME$/Apache/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/Apache/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
-        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
-    <option name="jreName" value="#JAVA_HOME" />
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1eLguBmNDhmSU8ilWkWWNp6zqvh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -61,44 +96,30 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="imu.hzm.ganasd.model" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.DataApplication">
-    <configuration name="DataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ganasd-data" />
+  <component name="RunManager">
+    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imu.hzm.ganasd.UserApplication" />
+      <module name="ganasd-user" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="imu.hzm.ganasd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="imu.hzm.ganasd.DataApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ganasd-usermanager" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="imu.hzm.ganasd.UserManagerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DataApplication" />
+        <item itemvalue="Application.UserApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -145,69 +166,63 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="91" key="#Project_Structure" timestamp="1594372781784">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="369" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605860317830">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="91" key="#Project_Structure/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594372781784" />
-    <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1594546654263">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="369" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605860317830" />
+    <state x="2184" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605856538402" />
+    <state width="2518" height="883" key="GridCell.Tab.0.bottom" timestamp="1605864248234">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594546654263" />
-    <state x="500" y="122" key="FileChooserDialogImpl" timestamp="1594177116883">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1398" height="524" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605862208895" />
+    <state width="2518" height="883" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605864248234" />
+    <state width="1398" height="182" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605858636073" />
+    <state width="2518" height="883" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605863506272" />
+    <state width="2518" height="883" key="GridCell.Tab.0.center" timestamp="1605864248232">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state x="500" y="122" key="FileChooserDialogImpl/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594177116883" />
-    <state width="1396" height="333" key="GridCell.Tab.0.bottom" timestamp="1594558190427">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1398" height="524" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605862208894" />
+    <state width="2518" height="883" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605864248232" />
+    <state width="1398" height="182" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605858636072" />
+    <state width="2518" height="883" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605863506270" />
+    <state width="2518" height="883" key="GridCell.Tab.0.left" timestamp="1605864248231">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state width="1396" height="333" key="GridCell.Tab.0.bottom/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594558190427" />
-    <state width="1396" height="333" key="GridCell.Tab.0.center" timestamp="1594558190427">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1398" height="524" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605862208893" />
+    <state width="2518" height="883" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605864248231" />
+    <state width="1398" height="182" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605858636071" />
+    <state width="2518" height="883" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605863506270" />
+    <state width="2518" height="883" key="GridCell.Tab.0.right" timestamp="1605864248233">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state width="1396" height="333" key="GridCell.Tab.0.center/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594558190427" />
-    <state width="1396" height="333" key="GridCell.Tab.0.left" timestamp="1594558190427">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1398" height="524" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605862208894" />
+    <state width="2518" height="883" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605864248233" />
+    <state width="1398" height="182" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605858636073" />
+    <state width="2518" height="883" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605863506271" />
+    <state x="2391" y="478" key="NewModule_or_Project.wizard" timestamp="1605769589687">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state width="1396" height="333" key="GridCell.Tab.0.left/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594558190427" />
-    <state width="1396" height="333" key="GridCell.Tab.0.right" timestamp="1594558190427">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="2391" y="478" key="NewModule_or_Project.wizard/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605769589687" />
+    <state x="2229" y="359" key="SettingsEditor" timestamp="1605839881717">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state width="1396" height="333" key="GridCell.Tab.0.right/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594558190427" />
-    <state width="1396" height="333" key="GridCell.Tab.1.bottom" timestamp="1594558190427">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="2229" y="359" key="SettingsEditor/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605839881717" />
+    <state x="2229" y="359" key="SettingsEditor/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605839611760" />
+    <state x="2320" y="460" key="Vcs.Push.Dialog.v2" timestamp="1605772352626">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state width="1396" height="333" key="GridCell.Tab.1.bottom/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594558190427" />
-    <state width="1396" height="333" key="GridCell.Tab.1.center" timestamp="1594558190427">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="2320" y="460" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605772352626" />
+    <state x="1561" y="151" width="2360" height="1240" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1605837605049">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state width="1396" height="333" key="GridCell.Tab.1.center/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594558190427" />
-    <state width="1396" height="333" key="GridCell.Tab.1.left" timestamp="1594558190427">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="1561" y="151" width="2360" height="1240" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605837605049" />
+    <state x="2385" y="345" width="670" height="675" key="run.anything.popup" timestamp="1605757101842">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state width="1396" height="333" key="GridCell.Tab.1.left/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594558190427" />
-    <state width="1396" height="333" key="GridCell.Tab.1.right" timestamp="1594558190427">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="2385" y="345" width="670" height="675" key="run.anything.popup/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605757101842" />
+    <state x="2385" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1605864182521">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state width="1396" height="333" key="GridCell.Tab.1.right/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594558190427" />
-    <state x="360" y="133" key="NewModule_or_Project.wizard" timestamp="1594177118356">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="360" y="133" key="NewModule_or_Project.wizard/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594177118356" />
-    <state x="200" y="7" key="SettingsEditor" timestamp="1594293887154">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="200" y="7" key="SettingsEditor/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594293887154" />
-    <state x="1770" y="0" width="572" height="847" maximized="true" key="dock-window-1" timestamp="1594540415772">
-      <screen x="1440" y="0" width="1440" height="860" />
-    </state>
-    <state x="1770" y="0" width="572" height="847" maximized="true" key="dock-window-1/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594540415772" />
-    <state x="189" y="171" key="new project wizard" timestamp="1594372534502">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="189" y="171" key="new project wizard/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594372534502" />
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1594556280234">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1594556280234" />
+    <state x="2385" y="331" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605864182521" />
   </component>
 </project>

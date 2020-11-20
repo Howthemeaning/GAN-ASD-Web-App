@@ -1,8 +1,7 @@
 /Users/zenlayer/IdeaProjects/GAN-ASD-Web-App/ganasd-user/src/main/java/imu/hzm/ganasd/service/UserService.java
 /Users/zenlayer/IdeaProjects/GAN-ASD-Web-App/ganasd-user/src/main/java/imu/hzm/ganasd/model/User.java
 /Users/zenlayer/IdeaProjects/GAN-ASD-Web-App/ganasd-user/src/main/java/imu/hzm/ganasd/config/SwaggerConfig.java
-/Users/zenlayer/IdeaProjects/GAN-ASD-Web-App/ganasd-user/src/main/java/imu/hzm/ganasd/UserManagerApplication.java
 /Users/zenlayer/IdeaProjects/GAN-ASD-Web-App/ganasd-user/src/main/java/imu/hzm/ganasd/controller/UserController.java
 /Users/zenlayer/IdeaProjects/GAN-ASD-Web-App/ganasd-user/src/main/java/imu/hzm/ganasd/service/impl/UserServiceImpl.java
 /Users/zenlayer/IdeaProjects/GAN-ASD-Web-App/ganasd-user/src/main/java/imu/hzm/ganasd/dao/UserDao.java
-/Users/zenlayer/IdeaProjects/GAN-ASD-Web-App/ganasd-user/src/main/java/imu/hzm/ganasd/admin/controller/AdminController.java
+/Users/zenlayer/IdeaProjects/GAN-ASD-Web-App/ganasd-user/src/main/java/imu/hzm/ganasd/UserApplication.java

@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 
 @RestController
+@RequestMapping("/user")
 @Api(value = "用户操作")
 public class UserController {
 
     @Resource
     UserService userService;
 
-    @PostMapping(value = "/user/login")
+    @PostMapping(value = "/login")
     @ApiOperation(value = "普通用户登陆")
-    @ResponseBody
     public CommonResult login(@RequestBody User user){
         if (userService.userLogin(user.getEmail(), user.getPassword()) != null)
             return new CommonResult(200, "登陆成功", user.getUsername());
@@ -26,12 +26,10 @@ public class UserController {
             return new CommonResult(401, "用户名或密码错误", null);
     }
 
-    @PostMapping(value = "/user/register")
+    @PostMapping(value = "/register")
     @ApiOperation(value = "普通用户注册")
-    @ResponseBody
     public CommonResult register(@RequestBody User user){
         if(!userService.userIsExist(user.getEmail())){
-            user.setAuthorityId((long) 1);
             userService.userRegister(user);
             return new CommonResult(200, "注册成功", user.getUsername());
         }else {
@@ -39,7 +37,7 @@ public class UserController {
         }
     }
 
-    @RequestMapping(value = "/hello")
+    @GetMapping(value = "/hello")
     public String hello(){
         return "Welcome!";
     }

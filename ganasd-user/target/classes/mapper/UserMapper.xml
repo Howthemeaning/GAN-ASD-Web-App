@@ -4,23 +4,22 @@
 
 <mapper namespace = "imu.hzm.ganasd.dao.UserDao">
     <select id="userLogin" resultMap="userBasicResultMap" parameterType="String">
-        Select * from user where email=#{email} and password=#{password};
+        select * from user where email=#{email} and password=#{password};
     </select>
 
     <resultMap id="userBasicResultMap" type="imu.hzm.ganasd.model.User">
-        <id column="userid" property="userId" jdbcType="BIGINT"/>
+        <id column="userId" property="userId" jdbcType="BIGINT"/>
         <id column="username" property="username" jdbcType="VARCHAR"/>
         <id column="password" property="password" jdbcType="VARCHAR"/>
         <id column="email" property="email" jdbcType="VARCHAR"/>
-        <id column="authorityid" property="authorityId" jdbcType="BIGINT"/>
-        <id column="phoneid" property="phoneId" jdbcType="BIGINT"/>
+        <id column="phoneId" property="phoneId" jdbcType="BIGINT"/>
     </resultMap>
 
     <select id="userFindByEmail" resultMap="userBasicResultMap" parameterType="String">
-        Select * from user where email=#{email};
+        select * from user where email=#{email};
     </select>
 
     <insert id = "userRegister" parameterType = "imu.hzm.ganasd.model.User" useGeneratedKeys="true" keyProperty="userId">
-        insert into user(username, password, email, authorityid, phoneid) values(#{username},#{password},#{email},#{authorityId},#{phoneId});
+        insert into user(username, password, email) values(#{username},#{password},#{email});
     </insert>
 </mapper>
