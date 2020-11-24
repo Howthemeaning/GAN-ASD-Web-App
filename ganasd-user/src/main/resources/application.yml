@@ -1,15 +1,40 @@
 server:
   port: 9001
 
-spring:
+dubbo:
   application:
-    name: ganasd-user-server
+    name: user-service
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: imu.hzm.ganasd.service.impl
+
+spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/ganasd?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: haozeming
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+
+#curator:
+#  namespace: ganasd
+#  connectString: 127.0.0.1:2181
+#  sessionTimeoutMs: 3000
+#  connectionTimeoutMs: 1000
+#  enableListener: true
+#  retryType: retryForever
+#  retryForever:
+#    retryIntervalMs: 1000
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml

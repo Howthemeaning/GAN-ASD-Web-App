@@ -2,35 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ff2c5d4-1822-4b98-a82b-5897ee9862c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-commons/target/ganasd-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-commons/target/ganasd-commons-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-commons/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-commons/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-core/target/ganasd-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-core/target/ganasd-core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-api/src/main/java/imu/hzm/ganasd/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-application/src/main/java/imu/hzm/ganasd/GANASDApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-application/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-commons/src/main/java/imu/hzm/ganasd/curator/CuratorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-commons/src/main/java/imu/hzm/ganasd/curator/CuratorInstanceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-commons/src/main/java/imu/hzm/ganasd/curator/RetryPolicyCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-commons/src/main/java/imu/hzm/ganasd/curator/RetryTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-commons/src/main/java/imu/hzm/ganasd/curator/service/CuratorInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/config/CuratorConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-commons/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ganasd-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/UserManagerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/admin/controller/AdminController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-application/src/main/java/imu/hzm/ganasd/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-application/src/main/java/imu/hzm/ganasd/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-api/src/main/java/imu/hzm/ganasd/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/UserService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/UserManagerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/admin/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/UserApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/service/UserService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/ganasd-user-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/ganasd-user-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,22 +95,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ganasd-commons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="imu.hzm.ganasd.controller" />
       <recent name="imu.hzm.ganasd.model" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ganasd-application/src/main/resources" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imu.hzm.ganasd.UserApplication" />
-      <module name="ganasd-user" />
+  <component name="RunManager" selected="Application.GANASDApplication">
+    <configuration name="GANASDApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imu.hzm.ganasd.GANASDApplication" />
+      <module name="ganasd-application" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="imu.hzm.ganasd.*" />
@@ -117,8 +125,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imu.hzm.ganasd.UserApplication" />
+      <module name="ganasd-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="imu.hzm.ganasd.curator.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GANASDApplication" />
         <item itemvalue="Application.UserApplication" />
       </list>
     </recent_temporary>
@@ -166,48 +188,65 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2320" y="385" key="#Notifications" timestamp="1606027262465">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2320" y="385" key="#Notifications/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606027262465" />
+    <state x="2320" y="385" key="#Project_Structure" timestamp="1606196251062">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2320" y="385" key="#Project_Structure/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606196251062" />
+    <state x="2320" y="385" key="#Project_Structure/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606124888752" />
     <state x="369" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605860317830">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="369" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605860317830" />
     <state x="2184" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605856538402" />
-    <state width="2518" height="883" key="GridCell.Tab.0.bottom" timestamp="1605864248234">
+    <state x="2533" y="436" key="#com.intellij.ide.util.MemberChooser" timestamp="1606100481246">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2533" y="436" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606100481246" />
+    <state x="2267" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606124533114">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2267" y="652" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606124533114" />
+    <state width="2518" height="473" key="GridCell.Tab.0.bottom" timestamp="1606198985080">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="524" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605862208895" />
-    <state width="2518" height="883" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605864248234" />
+    <state width="2518" height="473" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606198985080" />
     <state width="1398" height="182" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605858636073" />
-    <state width="2518" height="883" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605863506272" />
-    <state width="2518" height="883" key="GridCell.Tab.0.center" timestamp="1605864248232">
+    <state width="2518" height="476" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606133856982" />
+    <state width="2518" height="473" key="GridCell.Tab.0.center" timestamp="1606198985076">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="524" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605862208894" />
-    <state width="2518" height="883" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605864248232" />
+    <state width="2518" height="473" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606198985076" />
     <state width="1398" height="182" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605858636072" />
-    <state width="2518" height="883" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605863506270" />
-    <state width="2518" height="883" key="GridCell.Tab.0.left" timestamp="1605864248231">
+    <state width="2518" height="476" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606133856980" />
+    <state width="2518" height="473" key="GridCell.Tab.0.left" timestamp="1606198985074">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="524" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605862208893" />
-    <state width="2518" height="883" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605864248231" />
+    <state width="2518" height="473" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606198985074" />
     <state width="1398" height="182" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605858636071" />
-    <state width="2518" height="883" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605863506270" />
-    <state width="2518" height="883" key="GridCell.Tab.0.right" timestamp="1605864248233">
+    <state width="2518" height="476" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606133856979" />
+    <state width="2518" height="473" key="GridCell.Tab.0.right" timestamp="1606198985078">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="524" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605862208894" />
-    <state width="2518" height="883" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605864248233" />
+    <state width="2518" height="473" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606198985078" />
     <state width="1398" height="182" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605858636073" />
-    <state width="2518" height="883" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605863506271" />
+    <state width="2518" height="476" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606133856981" />
     <state x="2391" y="478" key="NewModule_or_Project.wizard" timestamp="1605769589687">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state x="2391" y="478" key="NewModule_or_Project.wizard/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605769589687" />
-    <state x="2229" y="359" key="SettingsEditor" timestamp="1605839881717">
+    <state x="2523" y="550" key="SettingsEditor" timestamp="1606113606334">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state x="2229" y="359" key="SettingsEditor/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605839881717" />
-    <state x="2229" y="359" key="SettingsEditor/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605839611760" />
+    <state x="2229" y="359" key="SettingsEditor/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606112555633" />
+    <state x="2523" y="550" key="SettingsEditor/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606113606334" />
     <state x="2320" y="460" key="Vcs.Push.Dialog.v2" timestamp="1605772352626">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
@@ -216,6 +255,15 @@
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state x="1561" y="151" width="2360" height="1240" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605837605049" />
+    <state x="2400" y="477" width="639" height="486" key="find.popup" timestamp="1606133376604">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2400" y="477" width="639" height="486" key="find.popup/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606133376604" />
+    <state x="2149" y="417" key="new project wizard" timestamp="1606195321490">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2149" y="417" key="new project wizard/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606195321490" />
+    <state x="2149" y="417" key="new project wizard/0.23.1440.877/1440.0.2560.1440@1440.0.2560.1440" timestamp="1606124480393" />
     <state x="2385" y="345" width="670" height="675" key="run.anything.popup" timestamp="1605757101842">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
@@ -224,5 +272,13 @@
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state x="2385" y="331" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605864182521" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="127.0.0.1" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="" />
+    <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
   </component>
 </project>

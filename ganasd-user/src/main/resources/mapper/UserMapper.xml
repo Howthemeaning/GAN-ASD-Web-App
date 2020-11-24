@@ -22,4 +22,12 @@
     <insert id = "userRegister" parameterType = "imu.hzm.ganasd.model.User" useGeneratedKeys="true" keyProperty="userId">
         insert into user(username, password, email) values(#{username},#{password},#{email});
     </insert>
+
+    <select id="userFindByUserId" resultMap="userBasicResultMap" parameterType="Long">
+        select * from user where userId=#{userId};
+    </select>
+
+    <update id="userModUsername" parameterType="imu.hzm.ganasd.model.User">
+        update user set userId=#{userId} where username=#{username};
+    </update>
 </mapper>

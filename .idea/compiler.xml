@@ -7,9 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ganasd-application" />
         <module name="ganasd-usermanager" />
         <module name="ganasd-core" />
         <module name="ganasd-common" />
+        <module name="ganasd-api" />
         <module name="ganasd-user" />
         <module name="ganasd-commons" />
         <module name="ganasd-data" />

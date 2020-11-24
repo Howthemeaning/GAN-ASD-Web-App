@@ -1,7 +1,4 @@
-imu/hzm/ganasd/controller/UserController.class
-imu/hzm/ganasd/dao/UserDao.class
-imu/hzm/ganasd/config/SwaggerConfig.class
-imu/hzm/ganasd/UserApplication.class
-imu/hzm/ganasd/service/UserService.class
-imu/hzm/ganasd/model/User.class
+imu/hzm/ganasd/config/CuratorConfiguration.class
 imu/hzm/ganasd/service/impl/UserServiceImpl.class
+imu/hzm/ganasd/dao/UserDao.class
+imu/hzm/ganasd/UserApplication.class

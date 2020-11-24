@@ -1,10 +1,10 @@
 package imu.hzm.ganasd.dao;
 
 import imu.hzm.ganasd.model.User;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
-@Mapper
+@Repository
 public interface UserDao {
 
     User userLogin(@Param("email") String email, @Param("password") String password);
@@ -12,4 +12,8 @@ public interface UserDao {
     User userFindByEmail(String email);
 
     Long userRegister(User user);
+
+    User userFindByUserId(Long userId);
+
+    int userModUsername(User user);
 }
