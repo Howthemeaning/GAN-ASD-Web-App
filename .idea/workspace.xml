@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ff2c5d4-1822-4b98-a82b-5897ee9862c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ganasd-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganasd-api/src/main/java/imu/hzm/ganasd/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganasd-application/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganasd-application/src/main/java/imu/hzm/ganasd/GANASDApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganasd-application/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganasd-commons/src/main/java/imu/hzm/ganasd/curator/CuratorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganasd-commons/src/main/java/imu/hzm/ganasd/curator/CuratorInstanceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganasd-commons/src/main/java/imu/hzm/ganasd/curator/RetryPolicyCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganasd-commons/src/main/java/imu/hzm/ganasd/curator/RetryTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganasd-commons/src/main/java/imu/hzm/ganasd/curator/service/CuratorInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/config/CuratorConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-application/src/main/java/imu/hzm/ganasd/config/SwaggerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-application/src/main/java/imu/hzm/ganasd/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-api/src/main/java/imu/hzm/ganasd/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/java/imu/hzm/ganasd/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/UserApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/imu/hzm/ganasd/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganasd-user/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ganasd-user/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
